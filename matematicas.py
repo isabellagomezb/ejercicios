@@ -103,9 +103,9 @@ while (isActive) :
                             pass
         elif (opMenu == 3):
             codigo = input("Ingrese el codigo del Estudiante: ")
-
+#Empieza a iterar en la lista de alumnos 
             for item in alumnos:
-                if codigo in item:
+                if codigo in item: #
                     print(item)
             os.system("pause")
         elif (opMenu == 4):
