@@ -116,4 +116,3 @@ while (isActive) :
             os.system("cls")
             print("Opcion invalida")
     os.system("pause")
-        
